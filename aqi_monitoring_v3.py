@@ -29,7 +29,7 @@ from zoneinfo import ZoneInfo
 # ============================================================
 
 CHANNEL_ID = "3386480"
-READ_API_KEY = "I27VE89AK3TJVUOQ"
+READ_API_KEY = st.secrets["READ_API_KEY"]
 REFRESH_SECONDS = 20
 
 URL = (
